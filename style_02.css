@@ -1,0 +1,200 @@
+*{
+  margin:0;
+  padding: 0;
+  font-family: 'Exo 2';
+}
+body{
+  background-color: #e2e2e4;
+  height: 2000;
+}
+.text a{
+	text-decoration: none;
+  color:orange;
+	font-size: 15px;
+	transition: all 100ms ease-in-out;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.text{
+  height: 800px;
+  width: 100%;
+  background-image: url("img/marsbcg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.logo{
+	margin-left: 15px;
+  height: 100px;
+  width: 200px;
+	
+
+}
+.nav{
+  text-align: right;
+  height: 70px;
+  
+}
+.menu{
+  margin: 0 30px 0 0;
+
+}
+.menu a{
+  text-decoration: none;
+  color:orange;
+  font-size: 15px;
+  transition: all 100ms ease-in-out;
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0 10px;
+  margin-top : 20px;
+ 
+}
+label{
+  
+  font-size: 26px;
+  display: none;
+}
+#toggle{
+  display: none;
+}
+
+.menu a:hover{
+  color:white;
+}
+
+
+
+
+hr.fancy-line {
+    border: 0;
+    height: 1px;
+   
+    background: radial-gradient(circle, orange 19%, rgba(226,226,228,1) 72%);
+
+}
+
+
+.mffc{
+  width: 130px;
+  left: 365px;
+  top:20px;
+  margin-bottom: 15px;
+}
+
+.imge img{
+  margin-top: 30px;
+  width: 800px;
+  height:500px;
+}
+
+
+.AeroText{
+  margin-top: 30px;
+  padding-top: 10px;
+}
+
+.SpaceText{
+  margin-top: 30px;
+  padding-top: 10px;
+}
+
+.AeroText li {
+  padding-top: 10px;
+}
+.SpaceText li {
+  padding-top: 10px;
+}
+
+
+@media only screen and (max-width: 640px) {
+   iframe{
+    /*width="750" height="450"*/
+    width:300px;
+    height:250px;
+
+  }
+  .imge img{
+    width:300px;
+    height:250px;    
+  }
+  label{
+    display: block;
+    cursor: pointer;
+  }
+  .menu{
+    text-align: center;
+    width: 100%;
+    display: none;
+  }
+  .menu a{
+    display: block;
+    border-bottom: 1px solid gray;
+  }
+  #toggle:checked + .menu{
+    display: block;
+  }
+
+
+}
+
+
+
+
+
+/*
+
+/* OVA E ZA VTORATA KATEGORIJA - SPACE*/
+.slika2{
+  height: 300px;
+  width: 400px;
+  background-image: url("img/space.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.Space, .RMS, .MFC{
+  margin-top:90px;
+}
+
+
+/* OVA E ZA TRETATA KATEGORIJA- RMS */
+.slika3{
+  height: 300px;
+  width: 400px;
+  background-image: url("img/rms.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.button a{
+  text-decoration: none;
+  color:white;
+}
+
+
+.footerbttm{
+  margin-top:200px;
+  height:200px;
+  width: 100%;
+  display:inline-block;
+  background-color: green;
+}
+
+.footerbttm a {
+  color: orange;
+}
+.footerbttm a:hover {
+  color: white;
+}
+
+.footerbttm-right{
+  float:right;
+  display: inline;
+}
+
+.footerbttm-left{
+  float:left;
+  display: inline;
+}
